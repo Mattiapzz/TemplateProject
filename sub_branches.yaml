@@ -1,0 +1,7 @@
+# git submodule status --recursive
+---
+#=========================
+cmake_utils: main
+submodules/Utils: master
+submodules/Utils/cmake_utils: main
+...

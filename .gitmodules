@@ -1,0 +1,9 @@
+[submodule "submodules/Clothoids"]
+	path = submodules/Clothoids
+	url = https://github.com/ebertolazzi/Clothoids.git
+[submodule "cmake_utils"]
+	path = cmake_utils
+	url = https://github.com/ebertolazzi/cmake_utils.git
+[submodule "submodules/Utils"]
+	path = submodules/Utils
+	url = https://github.com/ebertolazzi/Utils.git
