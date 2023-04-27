@@ -20,14 +20,14 @@ This is a base skeleton for my personal projects using clothoids.
 ### Clone
 Open a terminal and run:
 ```
-git clone https://github.com/Mattiapzz/MPTree
+git clone https://github.com/Mattiapzz/TemplateProject
 ```
 
 ### Setup submodules
 
 Enter in the created folder:
 ```
-cd MPTree
+cd TemplateProject
 ```
 and run 
 ```
