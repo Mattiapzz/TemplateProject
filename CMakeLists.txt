@@ -184,7 +184,7 @@ endif()
 
   set( EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/bin )
   foreach( S ${EXELISTCPP} )
-    add_executable( ${S} ${CMAKE_CURRENT_SOURCE_DIR}/src_tests/${S}.cc )
+    add_executable( ${S} ${CMAKE_CURRENT_SOURCE_DIR}/tests/${S}.cc )
     target_link_libraries( ${S} ${LIBS} )
     set_target_properties( ${S} PROPERTIES SUFFIX ".exe" )
     add_test( NAME "${S}" COMMAND ./bin/${S}.exe WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} )

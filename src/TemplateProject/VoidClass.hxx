@@ -1,13 +1,12 @@
 /*
 (***********************************************************************************)
 (*                                                                                 *)
-(* The BASICMPLCPPPROJECT project                                                  *)
+(* The VoidClass project                                                           *)
 (*                                                                                 *)
-(* Copyright (c) 2020, Mattia Piazza, Mattia Piccininit, Enrico Bertolazzi and     *)
-(* Francesco Biral                                        )                        *)
+(* Copyright (c) 2023, Mattia Piazza                                               *)
 (*                                                                                 *)
-(* The BASICMPLCPPPROJECT project and its components are supplied under the terms  *)
-(* of the open source BSD 2-Clause License. The contents of the BASICMPLCPPPROJECT *)
+(* The VoidClass project and its components are supplied under the terms           *)
+(* of the open source BSD 2-Clause License. The contents of the VoidClass          *)
 (* project and its components may not be copied or disclosed except in             *)
 (* accordance with the terms of the BSD 2-Clause License.                          *)
 (*                                                                                 *)
@@ -22,45 +21,48 @@
 */
 
 ///
-/// file: PlotCollector.hh
+/// file: VoidClass.hxx
 ///
 
 #pragma once
 
-#ifndef INCLUDE_PLOTCOLLECTOR
-#define INCLUDE_PLOTCOLLECTOR
-
-// namespace plt = matplotlibcpp;
+#ifndef INCLUDE_VOIDCLASS
+#define INCLUDE_VOIDCLASS
 
 namespace mpl
 {
-
-  //! PlotCollector class
   /**
-   * PlotCollector
+   * @brief VoidClass class
+   * A planner class to interface with Motion Primitives and Clothoids
    */
-  class PlotCollector 
+  class VoidClass
   {
   private:
-    // plt::Plot plot1;
-    // plt::Plot plot2;
+    /* data */
   public:
-
-    //! PlotCollector copy constructor
-    PlotCollector(PlotCollector const &) = default;
-
-    ~PlotCollector(void) = default;
-
-    //! PlotCollector class constructor
-    PlotCollector(void);
-
-    
-  }; // class PlotCollector
-
+    //! VoidClass copy constructor
+    /**
+     * @brief Construct a new Core VoidClass object
+     * 
+     */
+    VoidClass(VoidClass const &) = default;
+    //--------------------------------------------------------------------------------
+    //! VoidClass class destructor
+    /**
+     * @brief Destroy the Core VoidClass object
+     * 
+     */
+    ~VoidClass(void) = default;
+    //--------------------------------------------------------------------------------
+    //! VoidClass class constructor
+    /**
+     * @brief Construct a new Core VoidClass object
+     * 
+     */
+    VoidClass(void);
+    //--------------------------------------------------------------------------------
+  }; // class VoidClass
 } // namespace mpl
 
 #endif
 
-///
-/// eof: PlotCollector.hh
-///

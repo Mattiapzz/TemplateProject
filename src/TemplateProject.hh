@@ -54,6 +54,15 @@
 #include <cmath>
 #include <vector>
 
+// UTILS
+#include "Utils.hh"
+
+// CLOTHOIDS
+#include "Clothoids.hh"
+
+// QUARTICROOTSFLOCKE
+#include "PolynomialRoots.hh"
+
 //! Namespace containing all TEMPLATEPROJECT typedefs, classes and routines
 namespace mpl
 {
@@ -157,6 +166,9 @@ namespace mpl
 } // namespace mpl
 
 
+
+// include headers for all the classes
+#include "./TemplateProject/VoidClass.hxx"
 
 
 #endif
